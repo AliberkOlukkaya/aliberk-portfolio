@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Download, Menu, X } from "lucide-react";
 import { navigation, personal } from "@/data/portfolio";
+import { ScrollToTopLink } from "@/components/scroll-to-top-link";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -10,10 +11,10 @@ export function Header() {
   return (
     <header className="site-header">
       <div className="container nav-shell">
-        <a className="wordmark" href="#top" aria-label="Aliberk Olukkaya, back to top">
+        <ScrollToTopLink className="wordmark" ariaLabel="Aliberk Olukkaya, back to top">
           <span className="monogram" aria-hidden="true">AO</span>
           <span>Aliberk Olukkaya</span>
-        </a>
+        </ScrollToTopLink>
 
         <nav className="desktop-nav" aria-label="Primary navigation">
           {navigation.map((item) => (

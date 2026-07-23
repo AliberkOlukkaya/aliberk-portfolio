@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { GitHubIcon, LinkedInIcon } from "@/components/brand-icons";
 import { Header } from "@/components/header";
+import { ScrollToTopLink } from "@/components/scroll-to-top-link";
 import { experiences, personal, projects, skillGroups } from "@/data/portfolio";
 
 const traffic = projects[0];
@@ -35,7 +36,7 @@ export default function Home() {
       <Header />
 
       <main id="main-content">
-        <section className="hero" id="top">
+        <section className="hero">
           <div className="container hero-main">
             <div className="hero-copy">
               <p className="location-kicker"><span aria-hidden="true" /> Konya, Türkiye</p>
@@ -215,7 +216,7 @@ export default function Home() {
         <div className="container footer-inner">
           <p>© {new Date().getFullYear()} Aliberk Olukkaya</p>
           <p>Computer Engineer · AI &amp; Data Engineering</p>
-          <a href="#top">Back to top <ArrowUpRight size={15} aria-hidden="true" /></a>
+          <ScrollToTopLink>Back to top <ArrowUpRight size={15} aria-hidden="true" /></ScrollToTopLink>
         </div>
       </footer>
 

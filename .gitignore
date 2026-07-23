@@ -1,0 +1,31 @@
+# dependencies
+/node_modules
+
+# Next.js output
+/.next
+/out
+
+# local tooling and inspection files
+/.inspection
+/.runtime-tmp
+
+# source files are private working materials, not deployment assets
+/source-materials
+
+# environment and logs
+.env*
+!.env.example
+*.log
+
+# system and editor files
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts

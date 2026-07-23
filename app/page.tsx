@@ -107,7 +107,7 @@ export default function Home() {
                 {traffic.features.slice(0, 3).map((feature) => <li key={feature}><Check size={16} aria-hidden="true" /><span>{feature}</span></li>)}
               </ul>
               <div className="case-tags">{traffic.technologies.map((technology) => <span key={technology}>{technology}</span>)}</div>
-              <a className="case-link" href={personal.github} target="_blank" rel="noreferrer">View GitHub profile <ExternalLink size={14} aria-hidden="true" /></a>
+              <a className="case-link" href={traffic.href} target="_blank" rel="noreferrer">View Repository <ExternalLink size={14} aria-hidden="true" /></a>
             </div>
           </article>
         </section>
@@ -126,7 +126,7 @@ export default function Home() {
                 {phoenix.features.slice(0, 3).map((feature) => <li key={feature}><Check size={16} aria-hidden="true" /><span>{feature}</span></li>)}
               </ul>
               <div className="case-tags">{phoenix.technologies.map((technology) => <span key={technology}>{technology}</span>)}</div>
-              <a className="case-link" href={personal.github} target="_blank" rel="noreferrer">View GitHub profile <ExternalLink size={14} aria-hidden="true" /></a>
+              <a className="case-link" href={phoenix.href} target="_blank" rel="noreferrer">View Repository <ExternalLink size={14} aria-hidden="true" /></a>
             </div>
 
             <figure className="project-screenshot">

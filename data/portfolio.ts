@@ -60,7 +60,7 @@ export const projects: Project[] = [
       "Tailwind CSS",
     ],
     badges: ["Graduation Project", "Best Project Award"],
-    href: personal.github,
+    href: "https://github.com/AliberkOlukkaya/traffic-violation-system",
   },
   {
     name: "PhoenixDF — AI-Powered Research Assistant",
@@ -75,7 +75,7 @@ export const projects: Project[] = [
       "Developed with a Git and GitHub workflow and prepared for deployment.",
     ],
     technologies: ["Python", "Flask", "LLM APIs", "PDF Processing", "React", "REST APIs", "SQLite", "Git"],
-    href: personal.github,
+    href: "https://github.com/AliberkOlukkaya/PhoenixDF",
   },
 ];
 
